@@ -5,4 +5,4 @@ The game is played on a 4x4 board. The goal of the game is to capture the enemy 
 ## Units
 The game contains six types of units: Drake, Clubman, Monk, Spearman, Swordsman and Archer. Each unit has a AVERS and a REVERS side with different moves and attacks.
 ## Requirements
-*javafx
+* javafx
