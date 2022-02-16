@@ -1,0 +1,19 @@
+package thedrake;
+
+public class Offset2D {
+
+    public Offset2D (int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+
+    public boolean equalsTo(int x, int y){
+        return this.x == x && this.y == y;
+    }
+
+    public Offset2D yFlipped(){
+        return new Offset2D(this.x, -1*this.y);
+    }
+    public final int x;
+    public final int y;
+}
